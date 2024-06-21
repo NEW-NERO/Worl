@@ -2,7 +2,7 @@ export default [{
   name: "listen",
   command: ["listen"],
   code: async({ client, m, MessageCollector }) => {
-    m.reply("Balas dengan pesan apapun!");
+    m.reply("Responder con cualquier mensaje!");
     
     // init MessageCollector
     const col = new MessageCollector(m, {
@@ -17,7 +17,7 @@ export default [{
     
     col.on("end", ({ status }) => {
       if(status === "collected") return;
-      m.reply("Message collector diakhiri!")
+      m.reply("Recopilador de mensajes finalizado!")
     })
   }
 }]
