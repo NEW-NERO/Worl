@@ -4,11 +4,11 @@ import { fileURLToPath } from 'url';
 import { format } from "util";
 
 // main configs
-global.botNumber = "62856971039021";
+global.botNumber = "595972980943";
 global.bot = {
   public: true,
   antiCall: true,
-  owner: ["6285697103902", "6289520306297", "6283897390164"],
+  owner: ["595972980943", "595972980943", "595972980943"],
   sessionName: "session",
   prefix: /^[.]/i
 }
@@ -31,11 +31,11 @@ colors.setTheme({
 
 // sticker exif
 global.exif = {
-  packId: "https://github.com/ZanixonGroup",
+  packId: "",
   packName: `s.id/amirabot`,
-  packPublish: "© Amira-MD",
-  packEmail: "zanixon.group@gmail.com",
-  packWebsite: "https://github.com/ZanixonGroup",
+  packPublish: "© SHIRO-MD",
+  packEmail: "",
+  packWebsite: "https://github.com/",
   androidApp: "https://play.google.com/store/apps/details?id=com.bitsmedia.android.muslimpro",
   iOSApp: "https://apps.apple.com/id/app/muslim-pro-al-quran-adzan/id388389451?|=id",
   emojis: [],
@@ -44,19 +44,19 @@ global.exif = {
 
 // alert messages
 global.alertMessage = {
-  owner: "Features can only be accessed by owner!",
-  group: "Features only accessible in group!",
-  private: "Features only accessible in private chat!",
-  admin: "Features can only be accessed by group admin!",
-  botAdmin: "Bot is not admin, you can't use the features!",
-  bot: "Features only accessible by bot",
+  owner: "Solo el propietario puede acceder a las funciones",
+  group: "Funciones solo accesibles en grupo!",
+  private: "Funciones solo accesibles en chat privado!",
+  admin: "El bot no es administrador, no puedes usar las funciones
+  botAdmin: "El bot no es administrador, no puedes usar las funciones!",
+  bot: "Funciones a las que solo puede acceder el bot",
   media: "Reply media...",
   query: "No Query?",
-  error: "Seems to have encountered an unexpected error.",
+  error: "Parece haber encontrado un error inesperado.",
   quoted: "Reply message...",
-  wait: "Wait a minute...",
+  wait: "Espera un minuto HIHIHI...",
   urlInvalid: "Url Invalid!",
-  premium: "Premium Only Features!"
+  premium: "¡Características exclusivas premium!"
 }
 
 global.logs = {
