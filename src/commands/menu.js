@@ -24,7 +24,7 @@ export default [{
         }
       }
       const message = new MessageBuilder()
-        .setText(`Hola @${sender.split("@")[0]}, Amira aqui!
+        .setText(`Hola @${sender.split("@")[0]}, Shizu aqui!
 
 ${listCommand}`)
         .setMentions([sender])
