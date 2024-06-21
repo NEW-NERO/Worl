@@ -24,20 +24,20 @@ export default [{
         }
       }
       const message = new MessageBuilder()
-        .setText(`Halo @${sender.split("@")[0]}, Amira disini!
+        .setText(`Hola @${sender.split("@")[0]}, Amira aqui!
 
 ${listCommand}`)
         .setMentions([sender])
-        .setThumbnailMediaUrl("https://github.com/ZanixonGroup")
-        .setThumbnailTitle("Amira Bot Base | WhatsApp Bot")
-        .setThumbnailBody("Copyright © ZanixonGroup 2024 - All Right Reserved")
+        .setThumbnailMediaUrl("https://github.com/")
+        .setThumbnailTitle("Shixu Bot | WhatsApp Bot")
+        .setThumbnailBody("Copyright © Shizu 2024 - All Right Reserved")
         .setThumbnailLarge()
         .setThumbnailImage("https://telegra.ph/file/54cbfb6c7f6b2d69f85cd.jpg")
-        .setThumbnailUrl("https://github.com/ZanixonGroup")
+        .setThumbnailUrl("https://github.com/")
         .setForwardingScore(9999)
         .setForwarded(true)
         .setNewsletterJid("120363183632297680@newsletter")
-        .setNewsletterName("Developed by Zanixon Group™")
+        .setNewsletterName("Developed by Shizu™")
         .setNewsletterServerMessageId(125)
         .build()
       client.sendMessage(remote, message, { quoted: m });
