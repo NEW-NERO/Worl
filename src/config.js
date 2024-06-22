@@ -47,7 +47,7 @@ global.alertMessage = {
   owner: "Solo el propietario puede acceder a las funciones",
   group: "Funciones solo accesibles en grupo!",
   private: "Funciones solo accesibles en chat privado!",
-  admin: "El bot no es administrador, no puedes usar las funciones
+  admin: "Solo el administrador del grupo puede acceder a las funciones",
   botAdmin: "El bot no es administrador, no puedes usar las funciones!",
   bot: "Funciones a las que solo puede acceder el bot",
   media: "Reply media...",
