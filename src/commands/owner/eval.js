@@ -67,7 +67,7 @@ export default [{
       let __dirname = dirname(import.meta.url)
       
       let evalCmd
-      if(!text) return m.reply("Mana kode yang mau di eval?");
+      if(!text) return m.reply("¿Qué código quieres eval?");
       try {
           evalCmd = /await/i.test(text) ? eval("(async() => { " + text + " })()") : eval(m.text)
       } catch (e) {
